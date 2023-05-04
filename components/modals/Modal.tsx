@@ -39,7 +39,7 @@ const Modal: React.FC<ModalProps> = ({ label }) => {
                 onSubmit={handleSubmit}
               />
               <Button
-                label="Submit"
+                label="Close"
                 onClick={closeModal}
                 onSubmit={handleSubmit}
               />
